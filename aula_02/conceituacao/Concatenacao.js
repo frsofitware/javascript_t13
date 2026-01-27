@@ -1,4 +1,4 @@
-// --- CONCEITUAÇÃO: CONCATENAÇÃO & INTERPOLAÇÃO EM JAVA SCRIPT ---
+// --- CONCEITUAÇÃO: CONCATENAÇÃO & INTERPOLAÇÃO EM JAVASCRIPT ---
 // Podemos unir informações de string e variaveis 
 // Por meio da Concatenação ou Interpolação.
 

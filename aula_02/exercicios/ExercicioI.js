@@ -27,6 +27,7 @@ salario = leia.questionFloat('Insira o valor do seu salario: ')
 abono = leia.questionFloat('Insira o valor do abono: ')
 
 // CALCULO DO NOVO SALÁRIO.
+
 novoSalario = salario + abono
 
 // SAÍDA DO CALCULO COM O VALOR DO NOVO SALÁRIO.

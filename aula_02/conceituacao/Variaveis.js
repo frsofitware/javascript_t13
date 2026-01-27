@@ -4,19 +4,19 @@
 
 "use strict"
 
-// String: Textos em geral
+// STRING: Textos em geral.
 let nome = 'Sofia'
 
-// Number: Números (inteiros ou decimais)
+// NUMBER: Números (inteiros ou decimais).
 let idade = 23
 
-// Boolean: Valores lógicos (verdadeiro ou falso)
+// BOOLEAN: Valores lógicos (verdadeiro ou falso).
 let paulista = true
 
-// 4. UNDEFINED: Variável declarada, mas sem valor atribuído
+// 4. UNDEFINED: Variável declarada, mas sem valor atribuído.
 let statusCertificado
 
-// 5. NULL: Ausência intencional de valor (vazio)
+// 5. NULL: Ausência intencional de valor (vazio).
 let preguicaDeEstudar = null
 
 // --- FUNCIONAMENTO DOS CONCEITOS NA PRÁTICA ---
