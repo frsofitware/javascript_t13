@@ -2,12 +2,11 @@
 
 "use strict"
 
-// DEFIINDO VARIÁVEIS.
+// CHAMANDO A BIBLIOTECA PARA USAR O INPUT.
 
 const leia = require('readline-sync')
-let salario
-let abono
-let novoSalario
+
+// FORMATANDO A SAÍDA EM REAIS.
 
 const formatadorMoeda = new Intl.NumberFormat('pt-BR', {
     style: 'currency',
@@ -16,21 +15,20 @@ const formatadorMoeda = new Intl.NumberFormat('pt-BR', {
 
 // DIAGRAMANDO O CABEÇALHO.
 
-console.log("======================================================");
-console.log("             SISTEMA DE AJUSTE SALARIAL               ");
-console.log("======================================================");
+console.log("======================================================")
+console.log("             SISTEMA DE AJUSTE SALARIAL               ")
+console.log("======================================================")
 
-// INSERÇÃO DE VALORES (SALÁRIO E ABONO).
+// INPUT DE VALORES (SALÁRIO E ABONO).
 
-salario = leia.questionFloat('Insira o valor do seu salario: ')
-
-abono = leia.questionFloat('Insira o valor do abono: ')
+let salario = leia.questionFloat('Insira o valor do seu salario: ')
+let abono = leia.questionFloat('Insira o valor do abono: ')
 
 // CALCULO DO NOVO SALÁRIO.
 
-novoSalario = salario + abono
+let novoSalario = salario + abono
 
-// SAÍDA DO CALCULO COM O VALOR DO NOVO SALÁRIO.
+// SAÍDA DO CALCULO COM O VALOR DO NOVO SALÁRIO (FORMATADO EM REAIS).
 
 console.log("------------------------------------------------------")
 console.log(`Novo salário: ${formatadorMoeda.format(novoSalario)}`)

@@ -2,35 +2,29 @@
 
 "use strict"
 
-// DEFIINDO VARIÁVEIS.
+// CHAMANDO A BIBLIOTECA PARA USAR O INPUT.
 
 const leia = require('readline-sync')
 
-let numeroi
-let numeroii
-let numeroiii
-let numeroiv
-let calculo
-
 // DIAGRAMANDO O CABEÇALHO.
 
-console.log("======================================================");
-console.log("             CÁLCULO DE DIFERENÇA DE PRODUTOS         ");
-console.log("======================================================");
+console.log("======================================================")
+console.log("           CÁLCULO DE DIFERENÇA DE PRODUTOS           ")
+console.log("======================================================")
 
-// INSERÇÃO DE VALORES.
+// INPUT DE VALORES (NUMEROI, NUMEROII, NUMEROIII E NUMEROIV).
 
-numeroi = leia.questionFloat('Insira o primeiro valor: ')
-numeroii = leia.questionFloat('Insira o segundo valor: ')
-numeroiii = leia.questionFloat('Insira o terceiro valor: ')
-numeroiv = leia.questionFloat('Insira o quarto valor: ')
+let numeroi = leia.questionFloat('Insira o primeiro valor: ')
+let numeroii = leia.questionFloat('Insira o segundo valor: ')
+let numeroiii = leia.questionFloat('Insira o terceiro valor: ')
+let numeroiv = leia.questionFloat('Insira o quarto valor: ')
 
-// CÁLCULO DA DIFERENÇA DOS VALORES INSERIDOS.
+// CÁLCULO DA DIFERENÇA DO PRODUTO DOS VALORES INSERIDOS.
 
-calculo = (numeroi * numeroii) - (numeroiii * numeroiv)
+let calculo = (numeroi * numeroii) - (numeroiii * numeroiv)
 
 // SAÍDA COM O RESULTADO DA DIFERENÇA.
 
-console.log("------------------------------------------------------");
+console.log("------------------------------------------------------")
 console.log("Diferença entre os valores: " + calculo)
-console.log("======================================================");
+console.log("======================================================")

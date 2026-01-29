@@ -2,15 +2,11 @@
 
 "use strict"
 
-// DEFIINDO VARIÁVEIS.
+// CHAMANDO A BIBLIOTECA PARA USAR O INPUT.
 
 const leia = require('readline-sync')
 
-let salarioBruto
-let adicionalNoturno
-let horasExtras
-let descontos
-let salarioLiquido
+// FORMATANDO A SAÍDA EM REAIS.
 
 const moeda = new Intl.NumberFormat('pt-BR', {
     style: 'currency',
@@ -19,22 +15,22 @@ const moeda = new Intl.NumberFormat('pt-BR', {
 
 // DIAGRAMANDO O CABEÇALHO.
 
-console.log("======================================================");
-console.log("             SISTEMA DE FOLHA DE PAGAMENTO            ");
-console.log("======================================================");
+console.log("======================================================")
+console.log("             SISTEMA DE FOLHA DE PAGAMENTO            ")
+console.log("======================================================")
 
-// INSERÇÃO DE VALORES (SALÁRIO BRUTO, ADICIONAL NOTURNO, HORAS EXTRAS E DESCONTOS).
+// INPUT DE VALORES (SALÁRIO BRUTO, ADICIONAL NOTURNO, HORAS EXTRAS E DESCONTOS).
 
-salarioBruto = leia.questionFloat('Salario Bruto: ')
-adicionalNoturno = leia.questionFloat('Adcional Noturno: ')
-horasExtras = leia.questionFloat('Horas Extras: ')
-descontos = leia.questionFloat('Descontos: ')
+let salarioBruto = leia.questionFloat('Salario Bruto: ')
+let adicionalNoturno = leia.questionFloat('Adcional Noturno: ')
+let horasExtras = leia.questionFloat('Horas Extras: ')
+let descontos = leia.questionFloat('Descontos: ')
 
 // CÁLCULO DE SALÁRIO LÍQUIDO
 
-salarioLiquido =  salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos
+let salarioLiquido =  salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos
 
-// SAÍDA DO CÁLCULO COM O VALOR DO SALÁRIO LÍQUIDO.
+// SAÍDA DO CÁLCULO COM O VALOR DO SALÁRIO LÍQUIDO (FORMATADO EM REAIS).
 
 console.log("------------------------------------------------------");
 console.log(`Salário Líquido: ${moeda.format(salarioLiquido)}`);
