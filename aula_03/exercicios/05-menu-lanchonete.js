@@ -28,7 +28,7 @@ console.log("====================================================")
 
 // INPUT PARA CÓDIGO DO PEDIDO E QUANTIDADE.
 
-console.log("       Bem-vinda à Lanchonete Generation!        ")
+console.log("       Bem-vindo(a) à Lanchonete Generation!        ")
 let codigoPedido = leia.questionInt("Qual o codigo do produto (1-6)? ")
 let quantidade = leia.questionInt("Quantidade? ")
 
