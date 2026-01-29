@@ -96,9 +96,9 @@ console.log("------------------------------------------------------")
 
 // SAÍDA COM OS PARAMETROS FILTRADOS.
 
-console.log(`Total de pessoas desenvolvedoras Backend: ${backEnd}`);
-console.log(`Total de Mulheres Cis e Trans desenvolvedoras Frontend: ${frontEndMulheres}`);
-console.log(`Total de Homens Cis e Trans desenvolvedoras Mobile maiores de 40 anos: ${mobileHomens40}`);
-console.log(`Total de Pessoas Não Binárias desenvolvedoras FullStack menores de 30 anos: ${fullStackNB30}`);
-console.log(`O número total de pessoas que responderam à pesquisa: ${totalPessoas}`);
-console.log(`A média de idade das pessoas que responderam à pesquisa: ${media}`);
+console.log(`Total de pessoas desenvolvedoras Backend: ${backEnd}`)
+console.log(`Total de Mulheres Cis e Trans desenvolvedoras Frontend: ${frontEndMulheres}`)
+console.log(`Total de Homens Cis e Trans desenvolvedoras Mobile maiores de 40 anos: ${mobileHomens40}`)
+console.log(`Total de Pessoas Não Binárias desenvolvedoras FullStack menores de 30 anos: ${fullStackNB30}`)
+console.log(`O número total de pessoas que responderam à pesquisa: ${totalPessoas}`)
+console.log(`A média de idade das pessoas que responderam à pesquisa: ${media}`)

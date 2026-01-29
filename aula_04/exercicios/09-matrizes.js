@@ -1,4 +1,4 @@
-// --- RESOLUÇÃO DO EXERCÍCIO 6. ---
+// --- RESOLUÇÃO DO EXERCÍCIO 9. ---
 
 "use strict"
 
