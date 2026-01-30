@@ -32,7 +32,7 @@ while(novoRegistro.toUpperCase() === "S"){
     let idadeColaborador = leia.questionInt("Idade: ")
     console.log("------------------------------------------------------") 
 
-// INPUT DE VALIDAÇÃO DA IDENTIDADE DE GÊNERO DO/A/E.
+// INPUT DE VALIDAÇÃO DA IDENTIDADE DE GÊNERO O/A/E.
 
     console.log("1. Mulher Cis\n2. Homem Cis\n3. Não Binário\n4. Mulher Trans\n5. Homem Trans\n6. Outros")
     let genero = leia.questionInt("Identidade de Genero: ")
@@ -98,7 +98,7 @@ console.log("------------------------------------------------------")
 
 console.log(`Total de pessoas desenvolvedoras Backend: ${backEnd}`)
 console.log(`Total de Mulheres Cis e Trans desenvolvedoras Frontend: ${frontEndMulheres}`)
-console.log(`Total de Homens Cis e Trans desenvolvedoras Mobile maiores de 40 anos: ${mobileHomens40}`)
+console.log(`Total de Homens Cis e Trans desenvolvedores Mobile maiores de 40 anos: ${mobileHomens40}`)
 console.log(`Total de Pessoas Não Binárias desenvolvedoras FullStack menores de 30 anos: ${fullStackNB30}`)
 console.log(`O número total de pessoas que responderam à pesquisa: ${totalPessoas}`)
 console.log(`A média de idade das pessoas que responderam à pesquisa: ${media}`)
