@@ -26,5 +26,5 @@ let calculo = (numeroi * numeroii) - (numeroiii * numeroiv)
 // SAÍDA COM O RESULTADO DA DIFERENÇA.
 
 console.log("------------------------------------------------------")
-console.log("Diferença entre os valores: " + calculo)
+console.log("Diferença entre os valores: " + calculo.toFixed(1))
 console.log("======================================================")

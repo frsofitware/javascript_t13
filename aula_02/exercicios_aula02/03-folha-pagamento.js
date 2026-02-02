@@ -22,7 +22,7 @@ console.log("======================================================")
 // INPUT DE VALORES (SALÁRIO BRUTO, ADICIONAL NOTURNO, HORAS EXTRAS E DESCONTOS).
 
 let salarioBruto = leia.questionFloat('Salario Bruto: ')
-let adicionalNoturno = leia.questionFloat('Adcional Noturno: ')
+let adicionalNoturno = leia.questionFloat('Adicional Noturno: ')
 let horasExtras = leia.questionFloat('Horas Extras: ')
 let descontos = leia.questionFloat('Descontos: ')
 
@@ -32,6 +32,6 @@ let salarioLiquido =  salarioBruto + adicionalNoturno + (horasExtras * 5) - desc
 
 // SAÍDA DO CÁLCULO COM O VALOR DO SALÁRIO LÍQUIDO (FORMATADO EM REAIS).
 
-console.log("------------------------------------------------------");
+console.log("------------------------------------------------------")
 console.log(`Salário Líquido: ${moeda.format(salarioLiquido)}`);
-console.log("======================================================");
+console.log("======================================================")

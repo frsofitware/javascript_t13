@@ -1,16 +1,18 @@
 // --- CONCEITUAÇÃO: CONCATENAÇÃO & INTERPOLAÇÃO EM JAVASCRIPT ---
-// Podemos unir informações de string e variaveis 
-// Por meio da Concatenação ou Interpolação.
+// PODEMOS UNIR INFORMAÇÕES DE STRINGS E VARIÁVEIS
+// POR MEIO DA CONCATENAÇÃO E INTERPOLAÇÃO.
 
 "use strict"
 
 let ong = "Generation Brasil"
 let turma = "Turma JavaScript 13"
 
-// 1. CONCATENAÇÃO: Unimos informações com o operador de mais (+).
+// 1. CONCATENAÇÃO: UNIMOS INFORMAÇÕES COM O SINAL DE MAIS (+).
+
 let concatenacao = "A "+ turma + " da " + ong + " começou!"
 
-// 2. INTERPOLAÇÃO: Simplificamos a estrutura com `` e referenciando a variaveis por meio do ${}.
+// 2. INTERPOLAÇÃO: SIMPLIFICAMOS A ESTRUTURA COM `` E REFERENCIANDO AS VARIÁVEIS COM ${}.
+
 let interpolacao = `A ${turma} da ${ong} começou!`
 
 // --- FUNCIONAMENTO DOS CONCEITOS NA PRÁTICA ---

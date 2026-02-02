@@ -35,6 +35,7 @@ for (let indiceLinha = 0; indiceLinha < matriz.length; indiceLinha ++) {
         matriz [indiceLinha][indiceColuna] = leia.questionInt(`Digite o numero do elemento: [${indiceLinha}][${indiceColuna}]:`)
     }
 }
+
 // ESTRUTURANDO A SOMA E FACILITANDO A BUSCA PELOS INDICES.
 
 for(let somandoIndices = 0; somandoIndices < matriz.length; somandoIndices ++){

@@ -1,22 +1,27 @@
 // --- CONCEITUAÇÃO: TIPOS DE DADOS EM JAVASCRIPT ---
-// O JavaScript possui tipos dinâmicos, o que significa que uma 
-// variável não precisa ter um tipo fixo declarado.
+// O JAVASCRIPT POSSUI TIPOS DINÂMCOS, O QUE SIGNIFICA 
+// QUE UMA VARIÁVEL NÃO PRECISA TER UM TIPO FIXO DECLARADO.
 
 "use strict"
 
-// STRING: Textos em geral.
+// STRING: TEXTOS EM GERAL.
+
 let nome = 'Sofia'
 
-// NUMBER: Números (inteiros ou decimais).
+// NUMBER: NÚMEROS (INTEIROS OU DECIMAIS).
+
 let idade = 23
 
-// BOOLEAN: Valores lógicos (verdadeiro ou falso).
+// BOOLEAN: VALORES LÓGICOS (VERDADEIRO OU FALSO).
+
 let paulista = true
 
-// 4. UNDEFINED: Variável declarada, mas sem valor atribuído.
+// 4. UNDEFINED: VARIÁVEL DECLARADA, MAS SEM VALOR DEFINIDO.
+
 let statusCertificado
 
-// 5. NULL: Ausência intencional de valor (vazio).
+// 5. NULL: AUSÊNCIA INTENCIONAL DE VALOR (VAZIO).
+
 let preguicaDeEstudar = null
 
 // --- FUNCIONAMENTO DOS CONCEITOS NA PRÁTICA ---
